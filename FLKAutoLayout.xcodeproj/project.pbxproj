@@ -66,7 +66,7 @@
 		97CBCB5C10743AD84547AFAEA45AA728 /* FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
 		AC7F941168AFFFFB9901064CB2244B38 /* Pods-FLKAutoLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLKAutoLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
 		ADC09028F55375B6A86DF1437F45D5FA /* Pods-FLKAutoLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FLKAutoLayout_Example.modulemap"; sourceTree = "<group>"; };
-		B258A23E70BF26C67F6A6C0F3B1B3A9E /* Pods_FLKAutoLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLKAutoLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B258A23E70BF26C67F6A6C0F3B1B3A9E /* FLKAutoLayout_FLKAutoLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout_FLKAutoLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45C9DC285073628C5DF6D2DC9FFE8B5 /* NSObject+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
 		B49591CE1DF4B50F744F3E01D913C5BA /* FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
 		B900D774515D7393948144E338F7649A /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				EB0D59CEA049BB0B5732A76DDB499235 /* FLKAutoLayout.framework */,
-				B258A23E70BF26C67F6A6C0F3B1B3A9E /* Pods_FLKAutoLayout_Example.framework */,
+				B258A23E70BF26C67F6A6C0F3B1B3A9E /* FLKAutoLayout_FLKAutoLayout_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,9 +268,9 @@
 			productReference = EB0D59CEA049BB0B5732A76DDB499235 /* FLKAutoLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B8FEA2FCCC8E205AD1F64F35DA9C5EE6 /* Pods-FLKAutoLayout_Example */ = {
+		B8FEA2FCCC8E205AD1F64F35DA9C5EE6 /* FLKAutoLayout-FLKAutoLayout_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E3F023001804BFF64CDE4FCD9D9EA09 /* Build configuration list for PBXNativeTarget "Pods-FLKAutoLayout_Example" */;
+			buildConfigurationList = 4E3F023001804BFF64CDE4FCD9D9EA09 /* Build configuration list for PBXNativeTarget "FLKAutoLayout-FLKAutoLayout_Example" */;
 			buildPhases = (
 				176DE43C54564F720A14C1A4514CA2B8 /* Sources */,
 				F65583AD19C956E7C40127FCCBBDEC93 /* Frameworks */,
@@ -281,9 +281,9 @@
 			dependencies = (
 				F8514026E94BC6243A32E7C0B8FB6C85 /* PBXTargetDependency */,
 			);
-			name = "Pods-FLKAutoLayout_Example";
+			name = "FLKAutoLayout-FLKAutoLayout_Example";
 			productName = "Pods-FLKAutoLayout_Example";
-			productReference = B258A23E70BF26C67F6A6C0F3B1B3A9E /* Pods_FLKAutoLayout_Example.framework */;
+			productReference = B258A23E70BF26C67F6A6C0F3B1B3A9E /* FLKAutoLayout_FLKAutoLayout_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -295,7 +295,7 @@
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "FLKAutoLayout" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -308,7 +308,7 @@
 			projectRoot = "";
 			targets = (
 				7BFF26AFDBBCCAC9145945157AF97ED0 /* FLKAutoLayout */,
-				B8FEA2FCCC8E205AD1F64F35DA9C5EE6 /* Pods-FLKAutoLayout_Example */,
+				B8FEA2FCCC8E205AD1F64F35DA9C5EE6 /* FLKAutoLayout-FLKAutoLayout_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -370,7 +370,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_FLKAutoLayout_Example;
+				PRODUCT_NAME = FLKAutoLayout_FLKAutoLayout_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -408,7 +408,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				SYMROOT = build;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -434,7 +434,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_FLKAutoLayout_Example;
+				PRODUCT_NAME = FLKAutoLayout_FLKAutoLayout_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,7 +478,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				SYMROOT = build;
 			};
 			name = Debug;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "FLKAutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E3F023001804BFF64CDE4FCD9D9EA09 /* Build configuration list for PBXNativeTarget "Pods-FLKAutoLayout_Example" */ = {
+		4E3F023001804BFF64CDE4FCD9D9EA09 /* Build configuration list for PBXNativeTarget "FLKAutoLayout-FLKAutoLayout_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1229E53A0929154EA30A5AD80DE4211D /* Debug */,

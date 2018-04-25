@@ -407,6 +407,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = build;
 				VALIDATE_PRODUCT = YES;
@@ -501,7 +502,6 @@
 				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FLKAutoLayout;
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -529,7 +529,6 @@
 				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = FLKAutoLayout;
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";

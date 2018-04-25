@@ -1,0 +1,58 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/junhee.lee/FLKAutoLayout/Example/build/Debug-iphoneos/FLKAutoLayout.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FLKAutoLayout-Swift.h",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/Example/build/Debug-iphoneos/FLKAutoLayout.framework/Headers/FLKAutoLayout-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLKAutoLayout-umbrella.h",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/Example/Pods/Target Support Files/FLKAutoLayout/FLKAutoLayout-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "FLKAutoLayout.h",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/FLKAutoLayout/FLKAutoLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+FLKAutoLayoutDebug.h",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/FLKAutoLayout/NSObject+FLKAutoLayoutDebug.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+FLKAutoLayout.h",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/FLKAutoLayout/UIView+FLKAutoLayout.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIView+FLKAutoLayoutDebug.h",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+FLKAutoLayout.h",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/FLKAutoLayout/UIViewController+FLKAutoLayout.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/junhee.lee/FLKAutoLayout/Example/build/Debug-iphoneos/FLKAutoLayout.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/junhee.lee/FLKAutoLayout/Example/build/Pods.build/Debug-iphoneos/FLKAutoLayout.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

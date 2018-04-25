@@ -1,0 +1,14 @@
+PODS:
+  - FLKAutoLayout (1.0.0)
+
+DEPENDENCIES:
+  - FLKAutoLayout (from `../`)
+
+EXTERNAL SOURCES:
+  FLKAutoLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
+
+COCOAPODS: 0.39.0
